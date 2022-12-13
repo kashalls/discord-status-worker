@@ -16,7 +16,7 @@ export default Object.freeze<Config>({
   ////////////////////////////////////////
   // Discord stuff
   ////////////////////////////////////////
-  NAME: 'Discord Status',
+  NAME: 'Status Update',
   // Discord bot avatar URL (Make sure to respect trademarks and brand guidelines!)
   AVATAR_URL: '',
   // Channel ID used for publishing
