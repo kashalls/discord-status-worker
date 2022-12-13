@@ -1,20 +1,16 @@
 {
-    "name": "cf-status",
-    "version": "1.0.0",
-    "description": "Log the status of Cloudflare in Discord",
-    "main": "index.js",
-    "type": "module",
-    "scripts": {
-      "start": "miniflare",
-      "build": "webpack ."
-    },
-    "author": "Daniel Walsh (@WalshyDev)",
-    "license": "MIT",
-    "dependencies": {
-      "htmlparser2": "^8.0.0"
-    },
-    "devDependencies": {
-      "webpack": "5.75.0",
-      "webpack-cli": "5.0.0"
-    }
+  "name": "status-worker",
+  "version": "2.0.0",
+  "description": "Easily follow status pages and send updates to your Discord server!",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "publish": "wrangler publish"
+  },
+  "keywords": ["cloudflare", "workers", "statuspage", "status", "cloudflare workers"],
+  "author": "Daniel Walsh (@WalshyDev)",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.16.0"
   }
+}
