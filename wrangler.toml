@@ -1,8 +1,8 @@
 name = "discord-status"
-type = "webpack"
 workers_dev = true
 account_id = "3ed51f2c99510cd7fe8fcd8ed0621a37"
 main = "index.js"
+compatibility_date = "2022-10-06"
 
 kv_namespaces = [
   { binding = "KV", id = "a6dc1a5965ee413ea0b110a065195649" }
