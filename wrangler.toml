@@ -5,7 +5,7 @@ compatibility_date = "2022-10-06"
 main = "src/index.ts"
 
 kv_namespaces = [
-  { binding = "KV", id = "a6dc1a5965ee413ea0b110a065195649", preview_id = "" }
+  { binding = "KV", id = "bced06eeda5f4ac5a3348323fc2f91bc", preview_id = "" }
 ]
 
 [triggers]
