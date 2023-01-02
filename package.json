@@ -11,6 +11,6 @@
   "author": "Daniel Walsh (@WalshyDev)",
   "license": "MIT",
   "devDependencies": {
-    "@cloudflare/workers-types": "^3.16.0"
+    "@cloudflare/workers-types": "^4.0.0"
   }
 }
